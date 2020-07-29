@@ -1,6 +1,9 @@
 
 import re
-abc = 'guru99@google.com, careerguru99@hotmail.com, users@yahoomail.com,aswin@gmail.com,a@gmail.com'
+abc = input()
 emails = re.findall(r'[\w\.-]+@[\w\.-]+', abc)
-for email in emails:
-    print (email)
+if(len(email)==0):
+    print(0)
+else:
+    for email in emails:
+        print (email)
