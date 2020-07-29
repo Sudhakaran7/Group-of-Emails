@@ -1,0 +1,42 @@
+Vinith have given a work like, he'll be given a string, he have to find all the emails in that string,
+help him to find the emails in that string. If no emails found , then print 0
+Constraint: In string, every word should be seperated with comma
+
+Input description:
+String of words contains strings, words and emails
+
+Output Description:
+Emails in the string of paragraph if no email found then print 0
+
+Sample input:
+guru99@google.com, careerguru99@hotmail.com, guviprogramming.gmail.com, google, hello world
+
+Sample output:
+guru99@google.com
+careerguru99@hotmail.com
+
+Sample input:
+board,users@yahoomail.com,everyone,aswin@gmail.com,world,invention,a@gmail.com
+
+Sample Output:
+users@yahoomail.com
+aswin@gmail.com
+a@gmail.com
+
+Sample Input:
+good@yahoo.com, helloall, welcome.gmail.com
+
+Sample output:
+good@yahoo.com
+
+Sample input:
+rex,finall.gmail.com, guvi.com
+
+Sample Output:
+0
+
+Sample Input:
+Gmail.com,yahoo.com,guvi.com
+
+Sample Output:
+0
